@@ -1,0 +1,5 @@
+res://scripts/zumbi.gd
+res://scenes/zumbi.tscn
+res://scripts/projetil.gd
+res://scenes/projetil.tscn
+res://scripts/planta.gd

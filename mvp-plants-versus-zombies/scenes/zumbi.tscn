@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://cr1dsiu2n5llu"]
+
+[ext_resource type="Script" path="res://scripts/zumbi.gd" id="1_miboh"]
+[ext_resource type="Texture2D" uid="uid://yofxfbastul3" path="res://icon.svg" id="2_arvse"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wkxv2"]
+radius = 155.564
+
+[node name="zumbi" type="Node2D"]
+position = Vector2(988, 112)
+scale = Vector2(0.560065, 0.597566)
+script = ExtResource("1_miboh")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(85, 66)
+texture = ExtResource("2_arvse")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(87, 161)
+scale = Vector2(0.546875, 1)
+texture = ExtResource("2_arvse")
+
+[node name="Icon3" type="Sprite2D" parent="Icon2"]
+show_behind_parent = true
+position = Vector2(-39.3143, 100)
+scale = Vector2(0.442857, 0.796875)
+texture = ExtResource("2_arvse")
+
+[node name="Icon4" type="Sprite2D" parent="Icon2"]
+show_behind_parent = true
+position = Vector2(36.5714, 101)
+scale = Vector2(0.442857, 0.796875)
+texture = ExtResource("2_arvse")
+
+[node name="Icon5" type="Sprite2D" parent="Icon2"]
+show_behind_parent = true
+position = Vector2(-137.143, -20)
+rotation = -3.00396
+scale = Vector2(1.3082, 0.283397)
+skew = -0.0948772
+texture = ExtResource("2_arvse")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(78.5621, 155.631)
+scale = Vector2(1, 1)
+shape = SubResource("CircleShape2D_wkxv2")

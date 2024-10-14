@@ -1,0 +1,66 @@
+[gd_scene load_steps=7 format=3 uid="uid://t4x2qwv6877i"]
+
+[ext_resource type="Script" path="res://scripts/projetil.gd" id="1_8hh0d"]
+[ext_resource type="Texture2D" uid="uid://yofxfbastul3" path="res://icon.svg" id="2_q7d0h"]
+
+[sub_resource type="Animation" id="Animation_qk551"]
+resource_name = "new_animation"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+
+[sub_resource type="Animation" id="Animation_7t7sr"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7skce"]
+_data = {
+"RESET": SubResource("Animation_7t7sr"),
+"new_animation": SubResource("Animation_qk551")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ccy0o"]
+radius = 70.0105
+
+[node name="projetil" type="Node2D"]
+script = ExtResource("1_8hh0d")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(130, 131.5)
+scale = Vector2(1, 0.632813)
+texture = ExtResource("2_q7d0h")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Icon"]
+libraries = {
+"": SubResource("AnimationLibrary_7skce")
+}
+
+[node name="Area2D" type="Area2D" parent="Icon"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Icon/Area2D"]
+shape = SubResource("CircleShape2D_ccy0o")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="Icon"]
+
+[connection signal="screen_exited" from="Icon/VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
