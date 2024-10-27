@@ -1,10 +1,11 @@
-VisibleOnScreenNotifier2D
-Timer
-Marker2D
-PointLight2D
 CollisionShape2D
 Area2D
+Label
+ColorRect
+Timer
+VisibleOnScreenNotifier2D
+Marker2D
+PointLight2D
 AnimationPlayer
 AnimationTree
 Button
-ColorRect

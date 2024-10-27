@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://3jn5knckxoa2"]
+
+[ext_resource type="Script" path="res://scripts/planta.gd" id="1_gio40"]
+[ext_resource type="Texture2D" uid="uid://yofxfbastul3" path="res://icon.svg" id="2_yi1bs"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_er1y0"]
+radius = 103.577
+
+[node name="planta" type="Node2D"]
+z_as_relative = false
+script = ExtResource("1_gio40")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(1, -23)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2_yi1bs")
+
+[node name="Icon2" type="Sprite2D" parent="Icon"]
+show_behind_parent = true
+position = Vector2(2, 67)
+scale = Vector2(0.497069, 0.915387)
+texture = ExtResource("2_yi1bs")
+
+[node name="Icon3" type="Sprite2D" parent="Icon"]
+show_behind_parent = true
+position = Vector2(71, -5)
+scale = Vector2(0.8, 0.387704)
+texture = ExtResource("2_yi1bs")
+
+[node name="Marker2D" type="Marker2D" parent="Icon"]
+position = Vector2(115, -3)
+scale = Vector2(0.8, 0.8)
+
+[node name="Timer" type="Timer" parent="Icon"]
+wait_time = 2.0
+autostart = true
+
+[node name="Area2D" type="Area2D" parent="." groups=["planta"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(22.5, 1)
+shape = SubResource("CircleShape2D_er1y0")
+
+[node name="dano_timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Icon/Timer" to="." method="_on_timer_timeout"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="area_exited" from="Area2D" to="." method="_on_area_2d_area_exited"]
+[connection signal="timeout" from="dano_timer" to="." method="_on_dano_timer_timeout"]

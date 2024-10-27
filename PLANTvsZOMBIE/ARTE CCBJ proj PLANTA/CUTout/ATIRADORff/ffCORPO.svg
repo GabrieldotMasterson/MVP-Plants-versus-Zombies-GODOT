@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="45.815002"
+   height="49.207882"
+   viewBox="0 0 12.121886 13.019585"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="PLANTAatiradorFF.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="4.2736508"
+     inkscape:cx="86.109048"
+     inkscape:cy="53.233175"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1072"
+     inkscape:window-y="239"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-9.5787097,-51.959655)">
+    <g
+       id="g18"
+       transform="translate(-14.131499,40.18267)">
+      <g
+         id="g17"
+         transform="translate(9.9985258,0.71196932)">
+        <ellipse
+           style="fill:#dad4c7;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="ellipse11"
+           cx="19.780365"
+           cy="17.56707"
+           rx="5.7886205"
+           ry="6.2374706" />
+        <g
+           id="g15"
+           style="stroke:none">
+          <path
+             style="fill:#4c524a;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             d="m 15.208064,13.606816 -0.04002,2.304151 8.791274,-0.247642 0.297369,-2.325395 c 0,0 1.701218,3.283531 1.479894,4.973164 -0.410728,3.135585 -3.111605,5.599801 -5.665443,5.650422 -3.04235,0.0603 -6.33608,-2.819569 -6.234171,-6.5647 0.0331,-1.216334 1.371098,-3.79 1.371097,-3.79 z"
+             id="path15"
+             sodipodi:nodetypes="ccccsssc" />
+        </g>
+        <g
+           id="g16">
+          <ellipse
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             id="ellipse15"
+             cx="19.764887"
+             cy="17.582546"
+             rx="5.7886205"
+             ry="6.2374706" />
+        </g>
+      </g>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 25.135613,14.79658 0.03096,1.795401 8.760317,-0.247642 0.247642,-1.702535"
+         id="path17" />
+    </g>
+  </g>
+</svg>

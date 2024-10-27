@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://b5wls2r5seusu"]
+
+[ext_resource type="Script" path="res://SCRIPTS/sol_moeda.gd" id="1_freyo"]
+[ext_resource type="Texture2D" uid="uid://b47ucxdxw5mgn" path="res://ARTE CCBJ proj PLANTA/GENERICOS/moedaSOL/MOEDAsolCOMPLETO.svg" id="2_1thu3"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_72xef"]
+radius = 38.3275
+
+[node name="sol_moeda" type="Node2D"]
+scale = Vector2(0.8, 0.8)
+script = ExtResource("1_freyo")
+
+[node name="MoedAsolCompleto" type="Sprite2D" parent="."]
+position = Vector2(0, 1)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2_1thu3")
+
+[node name="Area2D" type="Area2D" parent="."]
+scale = Vector2(0.8, 0.8)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+scale = Vector2(0.8, 0.8)
+shape = SubResource("CircleShape2D_72xef")
+
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]

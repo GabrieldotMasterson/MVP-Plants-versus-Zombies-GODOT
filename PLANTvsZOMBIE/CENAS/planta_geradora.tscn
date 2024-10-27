@@ -1,0 +1,238 @@
+[gd_scene load_steps=9 format=3 uid="uid://kj55jgmul5pw"]
+
+[ext_resource type="Texture2D" uid="uid://xmi1kroldro4" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaGERADORAgabu/gerGABUbase.svg" id="1_lmdxb"]
+[ext_resource type="Texture2D" uid="uid://da3o07d5ftygk" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaGERADORAgabu/gerGABUtronco.svg" id="2_6vkco"]
+[ext_resource type="Texture2D" uid="uid://cjojoxrh5ny43" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaGERADORAgabu/gerGABUcabeca.svg" id="3_ymngi"]
+[ext_resource type="Texture2D" uid="uid://d1aykgf4ue854" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaGERADORAgabu/gerGABUefeito222.svg" id="4_5y86m"]
+
+[sub_resource type="Animation" id="Animation_5g5ah"]
+resource_name = "DERROTADO"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("GerGabUbase/GerGabUtronco:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.7),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.260419, -1.21005]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("GerGabUbase/GerGabUtronco/GerGabUcabeca:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.7),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0339638, -0.329589]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("GerGabUbase:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.7, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_f8uxg"]
+resource_name = "IDLE"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("EFEITO1:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("EFEITO2:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("GerGabUbase/GerGabUtronco:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.3, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.260419, 0.113076, 0.260419]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("GerGabUbase/GerGabUtronco/GerGabUcabeca:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0339638, 0.19823, 0.0339638]
+}
+
+[sub_resource type="Animation" id="Animation_i20kk"]
+resource_name = "PODER"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("GerGabUbase/GerGabUtronco:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0202363, 0.260419, 0.0202363]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("GerGabUbase/GerGabUtronco/GerGabUcabeca:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.4, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, -0.403144, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("EFEITO1:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.6, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(139, -1), Vector2(121, 33), Vector2(105, 48), Vector2(105, 48)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("EFEITO2:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.4, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(139, -1), Vector2(139, -1), Vector2(105, 49)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("EFEITO1:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.6, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("EFEITO2:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.3, 0.4, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("EFEITO1:visible")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("EFEITO2:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_uejye"]
+_data = {
+"DERROTADO": SubResource("Animation_5g5ah"),
+"IDLE": SubResource("Animation_f8uxg"),
+"PODER": SubResource("Animation_i20kk")
+}
+
+[node name="PLANTA_GERADORA" type="Node2D"]
+
+[node name="GerGabUbase" type="Sprite2D" parent="."]
+position = Vector2(30, 82)
+texture = ExtResource("1_lmdxb")
+offset = Vector2(0, 0.205)
+
+[node name="GerGabUtronco" type="Sprite2D" parent="GerGabUbase"]
+show_behind_parent = true
+rotation = 0.260419
+texture = ExtResource("2_6vkco")
+offset = Vector2(2.195, -18.695)
+
+[node name="GerGabUcabeca" type="Sprite2D" parent="GerGabUbase/GerGabUtronco"]
+position = Vector2(8, -34)
+rotation = 0.0339638
+texture = ExtResource("3_ymngi")
+offset = Vector2(10, -7.46)
+
+[node name="EFEITO1" type="Sprite2D" parent="."]
+position = Vector2(139, -1)
+texture = ExtResource("4_5y86m")
+
+[node name="EFEITO2" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(139, -1)
+texture = ExtResource("4_5y86m")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_uejye")
+}
+autoplay = "IDLE"

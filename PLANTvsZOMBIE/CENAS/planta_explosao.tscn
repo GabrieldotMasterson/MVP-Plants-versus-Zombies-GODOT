@@ -1,0 +1,247 @@
+[gd_scene load_steps=9 format=3 uid="uid://beiwvobrxq7tj"]
+
+[ext_resource type="Texture2D" uid="uid://cnl2k7qj3qrpe" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaEXPLOSAOnotebook/expNOTEbase.svg" id="1_ttmfx"]
+[ext_resource type="Texture2D" uid="uid://cplxxr4vrmngj" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaEXPLOSAOnotebook/expNOTEtronco.svg" id="2_dyljh"]
+[ext_resource type="Texture2D" uid="uid://3750wxrlqlgx" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaEXPLOSAOnotebook/expNOTEcabeca.svg" id="3_w8lp7"]
+[ext_resource type="Texture2D" uid="uid://bmt2tfusq7j7i" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaEXPLOSAOnotebook/expNOTEefeito.svg" id="4_t5jw0"]
+
+[sub_resource type="Animation" id="Animation_doqjf"]
+resource_name = "DERROTADO"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("EFEITO:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_17fiq"]
+resource_name = "IDLE"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("EFEITO:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ExpNotEbase/ExpNotEtronco:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ExpNotEbase/ExpNotEtronco/ExpNotEcabeca:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_v4e03"]
+resource_name = "PODER"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ExpNotEbase/ExpNotEtronco/ExpNotEcabeca:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, -0.355447, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("EFEITO:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("EFEITO/ExpNotEefeito:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(25, 9), Vector2(105, 33.195)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("EFEITO/ExpNotEefeito2:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(24, -10), Vector2(68, -33.805)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("EFEITO/ExpNotEefeito3:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(2, -23), Vector2(2, -65.805)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("EFEITO/ExpNotEefeito4:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-17, -13), Vector2(-72, -22.805)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("EFEITO/ExpNotEefeito5:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-17, 9), Vector2(-80, 46.195)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("EFEITO/ExpNotEefeito6:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-7, 21), Vector2(-21, 86.195)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("EFEITO/ExpNotEefeito7:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(12, 22), Vector2(62, 84.195)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wgoqg"]
+_data = {
+"DERROTADO": SubResource("Animation_doqjf"),
+"IDLE": SubResource("Animation_17fiq"),
+"PODER": SubResource("Animation_v4e03")
+}
+
+[node name="planta_explosao" type="Node2D"]
+
+[node name="ExpNotEbase" type="Sprite2D" parent="."]
+position = Vector2(27, 93)
+texture = ExtResource("1_ttmfx")
+
+[node name="ExpNotEtronco" type="Sprite2D" parent="ExpNotEbase"]
+show_behind_parent = true
+position = Vector2(2, -1)
+texture = ExtResource("2_dyljh")
+offset = Vector2(2, -23)
+
+[node name="ExpNotEcabeca" type="Sprite2D" parent="ExpNotEbase/ExpNotEtronco"]
+position = Vector2(11, -41)
+texture = ExtResource("3_w8lp7")
+offset = Vector2(17, -14)
+
+[node name="EFEITO" type="Node2D" parent="."]
+visible = false
+position = Vector2(42, 30.805)
+
+[node name="ExpNotEefeito" type="Sprite2D" parent="EFEITO"]
+position = Vector2(25, 9)
+texture = ExtResource("4_t5jw0")
+
+[node name="ExpNotEefeito2" type="Sprite2D" parent="EFEITO"]
+position = Vector2(24, -10)
+texture = ExtResource("4_t5jw0")
+
+[node name="ExpNotEefeito3" type="Sprite2D" parent="EFEITO"]
+position = Vector2(2, -23)
+texture = ExtResource("4_t5jw0")
+
+[node name="ExpNotEefeito4" type="Sprite2D" parent="EFEITO"]
+position = Vector2(-17, -13)
+texture = ExtResource("4_t5jw0")
+
+[node name="ExpNotEefeito5" type="Sprite2D" parent="EFEITO"]
+position = Vector2(-17, 9)
+texture = ExtResource("4_t5jw0")
+
+[node name="ExpNotEefeito6" type="Sprite2D" parent="EFEITO"]
+position = Vector2(-7, 21)
+texture = ExtResource("4_t5jw0")
+
+[node name="ExpNotEefeito7" type="Sprite2D" parent="EFEITO"]
+position = Vector2(12, 22)
+texture = ExtResource("4_t5jw0")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_wgoqg")
+}
+autoplay = "IDLE"

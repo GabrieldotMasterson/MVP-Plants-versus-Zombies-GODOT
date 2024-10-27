@@ -1,0 +1,119 @@
+[gd_scene load_steps=18 format=3 uid="uid://cb2kshmdbkd35"]
+
+[ext_resource type="Script" path="res://SCRIPTS/game.gd" id="1_icaxn"]
+[ext_resource type="Texture2D" uid="uid://dvpd6gdt6hee8" path="res://ARTE CCBJ proj PLANTA/CENARIOS/cenarioRUA.svg" id="1_rygni"]
+[ext_resource type="Texture2D" uid="uid://dsb24rgl7r0m3" path="res://ARTE CCBJ proj PLANTA/GUI HUD/BARRAsuperior.svg" id="2_ygb7j"]
+[ext_resource type="Texture2D" uid="uid://co8sm2uxn7svp" path="res://ARTE CCBJ proj PLANTA/GUI HUD/BARRAinferior.svg" id="3_53fhf"]
+[ext_resource type="Texture2D" uid="uid://dry4wryqqk8ks" path="res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAgeradorATIV.svg" id="4_51um6"]
+[ext_resource type="Texture2D" uid="uid://bmphuqd0pswda" path="res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAatiradorATIV.svg" id="5_2t2kv"]
+[ext_resource type="Texture2D" uid="uid://cke7u4faw8l2b" path="res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAbarreiraATIV.svg" id="6_q2daw"]
+[ext_resource type="Texture2D" uid="uid://cqg1oyaa4yurw" path="res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAlutadorATIV.svg" id="7_l1v74"]
+[ext_resource type="Texture2D" uid="uid://cobmf64l0y8gi" path="res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAexplosaoATIV.svg" id="8_b87bc"]
+[ext_resource type="Texture2D" uid="uid://2q1gujjli3ev" path="res://ARTE CCBJ proj PLANTA/GUI HUD/BOTpa.svg" id="9_01lc1"]
+[ext_resource type="Texture2D" uid="uid://cdy2av60d2npv" path="res://ARTE CCBJ proj PLANTA/GUI HUD/BOTpause.svg" id="10_iyy0m"]
+[ext_resource type="Texture2D" uid="uid://djc40vq4iw0p3" path="res://ARTE CCBJ proj PLANTA/GUI HUD/ICONEorda.svg" id="11_hahru"]
+[ext_resource type="Texture2D" uid="uid://brkisi8uaf3kj" path="res://ARTE CCBJ proj PLANTA/GUI HUD/ICONEcheckpoint.svg" id="12_jbh6e"]
+[ext_resource type="PackedScene" uid="uid://cbdc3y1seojf0" path="res://CENAS/stand_lutador.tscn" id="14_yp08g"]
+[ext_resource type="PackedScene" uid="uid://ch7y5fapcs2h2" path="res://CENAS/zumbi_fantasma.tscn" id="15_6cec4"]
+[ext_resource type="PackedScene" uid="uid://b6cr2bpa0dkuf" path="res://CENAS/stand_gerador.tscn" id="15_v5sr6"]
+[ext_resource type="PackedScene" uid="uid://b5wls2r5seusu" path="res://CENAS/sol_moeda.tscn" id="16_0jlgp"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_icaxn")
+
+[node name="CenarioJardim" type="Sprite2D" parent="."]
+position = Vector2(400, 300)
+texture = ExtResource("1_rygni")
+metadata/_edit_lock_ = true
+
+[node name="HUD" type="Node2D" parent="."]
+
+[node name="BarrAsuperior" type="Sprite2D" parent="HUD"]
+position = Vector2(235, 38)
+texture = ExtResource("2_ygb7j")
+
+[node name="Button_GERADOR" type="Button" parent="HUD/BarrAsuperior"]
+offset_left = -144.0
+offset_top = -32.0
+offset_right = -90.0
+offset_bottom = 33.0
+icon = ExtResource("4_51um6")
+
+[node name="Button_ATIRADOR" type="Button" parent="HUD/BarrAsuperior"]
+offset_left = -88.0
+offset_top = -32.0
+offset_right = -34.0
+offset_bottom = 33.0
+icon = ExtResource("5_2t2kv")
+
+[node name="Button_BARREIRA" type="Button" parent="HUD/BarrAsuperior"]
+offset_left = -31.0
+offset_top = -32.0
+offset_right = 23.0
+offset_bottom = 33.0
+icon = ExtResource("6_q2daw")
+
+[node name="Button_LUTADOR" type="Button" parent="HUD/BarrAsuperior"]
+offset_left = 26.0
+offset_top = -32.0
+offset_right = 80.0
+offset_bottom = 33.0
+icon = ExtResource("7_l1v74")
+
+[node name="Button_EXPLOSAO" type="Button" parent="HUD/BarrAsuperior"]
+offset_left = 82.0
+offset_top = -32.0
+offset_right = 136.0
+offset_bottom = 33.0
+icon = ExtResource("8_b87bc")
+
+[node name="Button_PA" type="Button" parent="HUD/BarrAsuperior"]
+offset_left = 139.0
+offset_top = -17.0
+offset_right = 179.0
+offset_bottom = 18.0
+icon = ExtResource("9_01lc1")
+expand_icon = true
+
+[node name="Button_PAUSE" type="Button" parent="HUD/BarrAsuperior"]
+offset_left = 181.0
+offset_top = -17.0
+offset_right = 221.0
+offset_bottom = 18.0
+icon = ExtResource("10_iyy0m")
+expand_icon = true
+
+[node name="BarrAinferior" type="Sprite2D" parent="HUD"]
+position = Vector2(637, 584)
+texture = ExtResource("3_53fhf")
+
+[node name="IconEorda" type="Sprite2D" parent="HUD/BarrAinferior"]
+position = Vector2(96, 0)
+texture = ExtResource("11_hahru")
+
+[node name="IconEcheckpoint" type="Sprite2D" parent="HUD/BarrAinferior"]
+position = Vector2(-4, 1)
+texture = ExtResource("12_jbh6e")
+
+[node name="moedas_label" type="Label" parent="HUD"]
+offset_left = 25.0
+offset_top = 45.0
+offset_right = 65.0
+offset_bottom = 76.0
+scale = Vector2(1.44, 0.6)
+text = "000
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="stand_lutador" parent="." instance=ExtResource("14_yp08g")]
+position = Vector2(288, 114)
+
+[node name="zumbi_fantasma" parent="." instance=ExtResource("15_6cec4")]
+position = Vector2(646, 313)
+
+[node name="stand_gerador" parent="." instance=ExtResource("15_v5sr6")]
+position = Vector2(192, 365)
+
+[node name="sol_moeda" parent="." instance=ExtResource("16_0jlgp")]
+position = Vector2(199, 275)

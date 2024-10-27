@@ -1,0 +1,414 @@
+[gd_scene load_steps=11 format=3 uid="uid://d07gwi8kofja6"]
+
+[ext_resource type="Texture2D" uid="uid://b3i6qoytchiy5" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBSbase.svg" id="1_5e6xc"]
+[ext_resource type="Texture2D" uid="uid://crtl5bauso2me" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBStronco.svg" id="2_kg8uo"]
+[ext_resource type="Texture2D" uid="uid://0jqrntskf1bc" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBScabeca1.svg" id="3_7n0ye"]
+[ext_resource type="Texture2D" uid="uid://cb1g8vwupmy8r" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBScabeca2.svg" id="4_63pmv"]
+[ext_resource type="Texture2D" uid="uid://c6usi4d6rewus" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBScabeca3.svg" id="5_g6om3"]
+[ext_resource type="Texture2D" uid="uid://cw8lguf6syau2" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBSefeito.svg" id="6_uk0v4"]
+
+[sub_resource type="Animation" id="Animation_2nf3j"]
+resource_name = "DERROTADO"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BarObSefeito:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("BarObSbase/BarObStronco:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-0.227873, -0.227873, -0.661255]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("BarObSbase/BarObStronco/BarObScabeca1:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.260423, 0.60303, -0.946642]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("BarObSbase/BarObStronco/BarObScabeca2:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.277045, 0.855904, -0.74595]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("BarObSbase/BarObStronco/BarObScabeca3:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.303496, 0.960018, -0.236831]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath(".:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.6, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_hm2fa"]
+resource_name = "IDLE"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BarObSefeito:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("BarObSbase/BarObStronco/BarObScabeca1:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.211991, -0.174533, 0.211991]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("BarObSbase/BarObStronco/BarObScabeca2:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.15412, -0.174533, 0.15412]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("BarObSbase/BarObStronco/BarObScabeca3:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.15224, -0.174533, 0.15224]
+}
+
+[sub_resource type="Animation" id="Animation_im5cu"]
+resource_name = "PODER"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BarObSbase/BarObStronco:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.227873]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("BarObSbase/BarObStronco/BarObScabeca1:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.260423]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("BarObSbase/BarObStronco/BarObScabeca2:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.277045]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("BarObSbase/BarObStronco/BarObScabeca3:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.303496]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("BarObSefeito:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("BarObSefeito/BarObSefeito2:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-13, -23), Vector2(14, -51), Vector2(-16, -67), Vector2(-3, -93), Vector2(-7, -100), Vector2(-13, -23)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("BarObSefeito/BarObSefeito2:scale")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1.2, 1.2), Vector2(0.869083, 0.869083), Vector2(0.676027, 0.676027), Vector2(0.421801, 0.421801), Vector2(0.421801, 0.421801), Vector2(1.2, 1.2)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("BarObSefeito/BarObSefeito2:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 1.2, 1.6, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [true, true, false, true]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("BarObSefeito/BarObSefeito3:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.3, 1.4, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(13, -50), Vector2(-17, -68), Vector2(-2.5, -91.4565), Vector2(-4, -102), Vector2(-13, -24), Vector2(13, -50)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("BarObSefeito/BarObSefeito3:scale")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.3, 1.4, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0.8, 0.8), Vector2(0.608695, 0.608695), Vector2(0.391304, 0.391304), Vector2(0.391304, 0.391304), Vector2(1.1, 1.1), Vector2(0.8, 0.8)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("BarObSefeito/BarObSefeito3:visible")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 1.3, 1.4, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [true, false, true, true]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("BarObSefeito/BarObSefeito4:position")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.7, 0.8, 1.4, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-17, -67), Vector2(-4, -93.087), Vector2(-5, -99), Vector2(-20, -20), Vector2(29, -40), Vector2(-17, -67)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("BarObSefeito/BarObSefeito4:scale")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.7, 0.8, 1.4, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0.6, 0.6), Vector2(0.347826, 0.347826), Vector2(0.347826, 0.347826), Vector2(1.21739, 1.21739), Vector2(0.8, 0.8), Vector2(0.6, 0.6)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("BarObSefeito/BarObSefeito4:visible")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.7, 0.8, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [true, false, true, true]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("BarObSefeito/BarObSefeito5:position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.4, 0.8, 1.4, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-3, -92), Vector2(-4, -103), Vector2(-22, -21), Vector2(16, -41), Vector2(-20, -62), Vector2(-3, -92)]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("BarObSefeito/BarObSefeito5:scale")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.4, 0.8, 1.4, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0.35, 0.35), Vector2(0.35, 0.35), Vector2(1.1, 1.1), Vector2(0.9, 0.9), Vector2(0.7, 0.7), Vector2(0.35, 0.35)]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("BarObSefeito/BarObSefeito5:visible")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.4, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [true, false, true, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_eddy2"]
+_data = {
+"DERROTADO": SubResource("Animation_2nf3j"),
+"IDLE": SubResource("Animation_hm2fa"),
+"PODER": SubResource("Animation_im5cu")
+}
+
+[node name="planta_barreira" type="Node2D"]
+
+[node name="BarObSbase" type="Sprite2D" parent="."]
+position = Vector2(51, 108)
+texture = ExtResource("1_5e6xc")
+
+[node name="BarObStronco" type="Sprite2D" parent="BarObSbase"]
+show_behind_parent = true
+position = Vector2(2, -5)
+rotation = -0.227873
+texture = ExtResource("2_kg8uo")
+offset = Vector2(3, -31)
+
+[node name="BarObScabeca1" type="Sprite2D" parent="BarObSbase/BarObStronco"]
+position = Vector2(-38.4862, -28.5502)
+rotation = 0.211991
+texture = ExtResource("3_7n0ye")
+offset = Vector2(-2.3242, -17.1959)
+
+[node name="BarObScabeca2" type="Sprite2D" parent="BarObSbase/BarObStronco"]
+position = Vector2(6.435, -59.9103)
+rotation = 0.15412
+texture = ExtResource("4_63pmv")
+offset = Vector2(1.09071, -15.2885)
+
+[node name="BarObScabeca3" type="Sprite2D" parent="BarObSbase/BarObStronco"]
+position = Vector2(50.0849, -23.041)
+rotation = 0.15224
+texture = ExtResource("5_g6om3")
+offset = Vector2(-0.794823, -16.8839)
+
+[node name="BarObSefeito" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(116, 101)
+texture = ExtResource("6_uk0v4")
+
+[node name="BarObSefeito2" type="Sprite2D" parent="BarObSefeito"]
+position = Vector2(-13, -23)
+rotation = -0.00444542
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("6_uk0v4")
+
+[node name="BarObSefeito3" type="Sprite2D" parent="BarObSefeito"]
+position = Vector2(13, -50)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("6_uk0v4")
+
+[node name="BarObSefeito4" type="Sprite2D" parent="BarObSefeito"]
+position = Vector2(-17, -67)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("6_uk0v4")
+
+[node name="BarObSefeito5" type="Sprite2D" parent="BarObSefeito"]
+position = Vector2(-3, -92)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_uk0v4")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_eddy2")
+}
+autoplay = "IDLE"

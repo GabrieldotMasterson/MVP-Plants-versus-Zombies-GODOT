@@ -1,3 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728933155
+::res://::1729996077
 icon.svg::CompressedTexture2D::1713778458279638490::1728933142::1728933160::1::::<><>::
+::res://scenes/::1729988782
+cenar.tscn::PackedScene::3781800003826115401::1729988782::0::1::::<><>::res://scenes/gaime.gd<>uid://yofxfbastul3::::res://icon.svg
+gaime.gd::GDScript::-1::1729988764::0::1::::<>Node2D<>::
+planta.tscn::PackedScene::1984710461795668907::1729988782::0::1::::<><>::res://scripts/planta.gd<>uid://yofxfbastul3::::res://icon.svg
+projetil.tscn::PackedScene::1394900566615614560::1729988782::0::1::::<><>::res://scripts/projetil.gd<>uid://yofxfbastul3::::res://icon.svg
+zumbi.tscn::PackedScene::6019940278435104854::1729988782::0::1::::<><>::res://scripts/zumbi.gd<>uid://yofxfbastul3::::res://icon.svg
+::res://scripts/::1729988780
+planta.gd::GDScript::-1::1729824357::0::1::::<>Node2D<>::
+projetil.gd::GDScript::-1::1729824442::0::1::::<>Node2D<>::
+zumbi.gd::GDScript::-1::1729988780::0::1::::<>Node2D<>::

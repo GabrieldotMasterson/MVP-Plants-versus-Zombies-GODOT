@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80"
+   height="80"
+   viewBox="0 0 21.166666 21.166667"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="MOEDAsolCOMPLETO.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="3.9257124"
+     inkscape:cx="56.804976"
+     inkscape:cy="4.9672513"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1072"
+     inkscape:window-y="239"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5">
+      <path
+         sodipodi:type="star"
+         style="fill:#e8b423;stroke:#000000;stroke-width:0.37847;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+         id="path1"
+         inkscape:flatsided="false"
+         sodipodi:sides="8"
+         sodipodi:cx="3.6057682"
+         sodipodi:cy="3.9427557"
+         sodipodi:r1="7.2417073"
+         sodipodi:r2="5.0738633"
+         sodipodi:arg1="0.89750887"
+         sodipodi:arg2="1.3280402"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 8.1214029,9.6041485 4.8254177,8.8678492 2.7955949,11.139001 0.98562361,8.2877451 -2.0556246,8.4583904 -1.3193253,5.1624052 -3.5904769,3.1325824 -0.73922123,1.3226111 -0.90986652,-1.7186371 2.3861187,-0.98233781 4.4159415,-3.2534894 6.2259128,-0.40223373 9.267161,-0.57287902 8.5308617,2.7231062 10.802013,4.752929 7.9507576,6.5629003 Z"
+         inkscape:transform-center-x="0.14062682"
+         inkscape:transform-center-y="-0.83228021"
+         transform="matrix(1.3979072,0,0,1.3984422,5.4879403,4.9846886)" />
+      <ellipse
+         style="fill:#f7d26c;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round"
+         id="path2"
+         cx="10.547713"
+         cy="10.463467"
+         rx="5.6950912"
+         ry="5.543447" />
+      <path
+         style="fill:#ff6f00;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round"
+         d="M 8.9119061,7.7204749 6.0524709,10.103337 8.8165918,13.01043 8.9119061,12.057285 7.4821885,10.198652 9.1501925,8.5783054 Z"
+         id="path3" />
+      <path
+         style="fill:#ff6f00;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round"
+         d="m 9.3408216,13.487002 0.9531454,-0.04766 1.691832,-6.0524708 -1.143774,-0.095314 z"
+         id="path4"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#ff6f00;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round"
+         d="m 12.128771,13.558489 v -1.000803 l 1.858632,-1.54886 -1.453546,-2.3590346 0.48983,-1.1659095 2.369606,3.6679151 z"
+         id="path5"
+         sodipodi:nodetypes="ccccccc" />
+    </g>
+  </g>
+</svg>

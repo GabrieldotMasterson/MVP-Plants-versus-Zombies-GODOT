@@ -1,0 +1,162 @@
+[gd_scene load_steps=9 format=3 uid="uid://cvxgbe1xxxox3"]
+
+[ext_resource type="Texture2D" uid="uid://bg56brmpopd7h" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaLUTADORAchat/lutCHATbase.svg" id="1_ui8jb"]
+[ext_resource type="Texture2D" uid="uid://tuv5udgs2wes" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaLUTADORAchat/lutCHATtronco.svg" id="2_2t5kq"]
+[ext_resource type="Texture2D" uid="uid://cves37g6upf3m" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaLUTADORAchat/lutCHATcabeca.svg" id="3_j23e6"]
+[ext_resource type="Texture2D" uid="uid://c82rpduvdtakw" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaLUTADORAchat/lutCHATefeito222.svg" id="4_gkbhi"]
+
+[sub_resource type="Animation" id="Animation_cny8d"]
+resource_name = "DERROTADO"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LutChaTbase/LutChaTtronco:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.432157, 0.432157, -1.34268]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("LutChaTbase/LutChaTtronco/LutChaTcabeca:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-0.264434, 0.262987, -0.239722]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.6, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("LutChaTefeito222:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_hoq1i"]
+resource_name = "IDLE"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LutChaTefeito222:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("LutChaTbase/LutChaTtronco/LutChaTcabeca:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, -21), Vector2(-12, -21), Vector2(0, -21)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("LutChaTbase/LutChaTtronco/LutChaTcabeca:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.432066]
+}
+
+[sub_resource type="Animation" id="Animation_gqxrd"]
+resource_name = "PODER"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LutChaTefeito222:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("LutChaTbase/LutChaTtronco/LutChaTcabeca:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.4, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-0.781302, -0.32907, -0.781302]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7dsgv"]
+_data = {
+"DERROTADO": SubResource("Animation_cny8d"),
+"IDLE": SubResource("Animation_hoq1i"),
+"PODER": SubResource("Animation_gqxrd")
+}
+
+[node name="planta_lutadora" type="Node2D"]
+
+[node name="LutChaTbase" type="Sprite2D" parent="."]
+position = Vector2(29, 89)
+texture = ExtResource("1_ui8jb")
+
+[node name="LutChaTtronco" type="Sprite2D" parent="LutChaTbase"]
+show_behind_parent = true
+position = Vector2(0, -1)
+rotation = 0.432157
+texture = ExtResource("2_2t5kq")
+offset = Vector2(1, -13)
+
+[node name="LutChaTcabeca" type="Sprite2D" parent="LutChaTbase/LutChaTtronco"]
+position = Vector2(0, -21)
+rotation = -0.432066
+texture = ExtResource("3_j23e6")
+offset = Vector2(12, -29)
+
+[node name="LutChaTefeito222" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(91, 41)
+texture = ExtResource("4_gkbhi")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_7dsgv")
+}
+autoplay = "IDLE"

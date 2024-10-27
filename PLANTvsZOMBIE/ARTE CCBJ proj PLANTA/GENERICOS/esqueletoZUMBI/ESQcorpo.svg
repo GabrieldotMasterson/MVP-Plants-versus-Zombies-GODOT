@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48.699669"
+   height="61.144886"
+   viewBox="0 0 12.88512 16.177918"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="ESQcompleto.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="3.6491199"
+     inkscape:cx="85.500067"
+     inkscape:cy="87.281319"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1072"
+     inkscape:window-y="239"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-28.001118,-53.759448)">
+    <g
+       id="g32"
+       transform="translate(13.26861,42.488555)">
+      <path
+         id="path28"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 21.404923,11.535477 a 1.7687988,1.6918945 0 0 0 -1.768884,1.691887 1.7687988,1.6918945 0 0 0 0.564307,1.23455 v 4.456575 h 2.460831 v -4.505668 a 1.7687988,1.6918945 0 0 0 0.51263,-1.185457 1.7687988,1.6918945 0 0 0 -1.768884,-1.691887 z" />
+      <g
+         id="g31"
+         transform="translate(4.5629882,-0.6665039)">
+        <path
+           style="fill:#6668e1;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 10.434105,17.135396 v 3.024903 l 2.050781,-0.05127 0.358886,7.7417 8.356934,-0.307618 -0.615234,-7.485351 2.204589,-0.153809 -0.512695,-3.024902 z"
+           id="path29" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.30809px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="16.672302"
+           y="20.94364"
+           id="text29"><tspan
+             sodipodi:role="line"
+             id="tspan29"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#000000;stroke:none;stroke-width:0.529167"
+             x="16.672302"
+             y="20.94364">vote</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.91887px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="16.823767"
+           y="22.989492"
+           id="text30"><tspan
+             sodipodi:role="line"
+             id="tspan30"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#000000;stroke:none;stroke-width:0.529167"
+             x="16.823767"
+             y="22.989492">FULANO</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:3.30809px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="16.672302"
+           y="25.686071"
+           id="text31"><tspan
+             sodipodi:role="line"
+             id="tspan31"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#000000;stroke:none;stroke-width:0.529167"
+             x="16.672302"
+             y="25.686071">666</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

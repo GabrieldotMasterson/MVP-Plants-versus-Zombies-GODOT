@@ -1,0 +1,232 @@
+[gd_scene load_steps=10 format=3 uid="uid://uxd7jovuvf6a"]
+
+[ext_resource type="Texture2D" uid="uid://t4855koamtpj" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/atirMORbase.svg" id="1_7qj16"]
+[ext_resource type="Texture2D" uid="uid://d36w6b4xl2une" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/atirMORtronco.svg" id="2_qagsu"]
+[ext_resource type="Texture2D" uid="uid://2wa0xiub38hg" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/atirMORcabeca1.svg" id="3_fitqr"]
+[ext_resource type="Texture2D" uid="uid://ctvlx3trbupeh" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/atirMORcabeca2.svg" id="4_1i16u"]
+[ext_resource type="Texture2D" uid="uid://bl1tvalivfb8c" path="res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/atirMORefeito.svg" id="5_hjwkw"]
+
+[sub_resource type="Animation" id="Animation_20tem"]
+resource_name = "DERROTADO"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AtirMoRbase/AtirMoRtronco:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, -0.985451]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AtirMoRbase/AtirMoRtronco/AtirMoRcabeca1:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.572127, -0.450116]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AtirMoRbase/AtirMoRtronco/AtirMoRcabeca2:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.44316, -0.434267]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.6, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("AtirMoRefeito:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_p8h1m"]
+resource_name = "IDLE"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AtirMoRbase/AtirMoRtronco:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-0.191801, -0.0545631, -0.191801]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AtirMoRbase/AtirMoRtronco/AtirMoRcabeca1:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.3, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.203528, 0.410546, 0.203528]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AtirMoRbase/AtirMoRtronco/AtirMoRcabeca2:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.6, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.393288, 0.118357, 0.393288]
+}
+
+[sub_resource type="Animation" id="Animation_nu3mm"]
+resource_name = "PODER"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AtirMoRefeito:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.9, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [false, true, true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AtirMoRbase/AtirMoRtronco/AtirMoRcabeca2:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(19, -23), Vector2(67.7361, -42.3417), Vector2(19, -23)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AtirMoRbase/AtirMoRtronco/AtirMoRcabeca2:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.6, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(0.672094, 0.672094), Vector2(0.330337, 0.330337), Vector2(1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("AtirMoRbase/AtirMoRtronco:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.0397492]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("AtirMoRbase/AtirMoRtronco/AtirMoRcabeca2:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.5, 0.6, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [true, true, false, true, true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("AtirMoRbase/AtirMoRtronco/AtirMoRcabeca2:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.393288, -0.0156424, 0.393288]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_omvp5"]
+_data = {
+"DERROTADO": SubResource("Animation_20tem"),
+"IDLE": SubResource("Animation_p8h1m"),
+"PODER": SubResource("Animation_nu3mm")
+}
+
+[node name="planta_atiradora" type="Node2D"]
+
+[node name="AtirMoRbase" type="Sprite2D" parent="."]
+position = Vector2(42, 82)
+texture = ExtResource("1_7qj16")
+
+[node name="AtirMoRtronco" type="Sprite2D" parent="AtirMoRbase"]
+show_behind_parent = true
+position = Vector2(2, 0)
+rotation = -0.191801
+texture = ExtResource("2_qagsu")
+offset = Vector2(-2, -22)
+
+[node name="AtirMoRcabeca1" type="Sprite2D" parent="AtirMoRbase/AtirMoRtronco"]
+position = Vector2(-19, -36)
+rotation = 0.203528
+texture = ExtResource("3_fitqr")
+offset = Vector2(-3, -21)
+
+[node name="AtirMoRcabeca2" type="Sprite2D" parent="AtirMoRbase/AtirMoRtronco"]
+position = Vector2(19, -23)
+rotation = 0.393288
+texture = ExtResource("4_1i16u")
+offset = Vector2(10, -13)
+
+[node name="AtirMoRefeito" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(116, 28)
+texture = ExtResource("5_hjwkw")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_omvp5")
+}
+autoplay = "IDLE"
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(117, 32)

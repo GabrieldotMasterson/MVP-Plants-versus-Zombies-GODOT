@@ -1,0 +1,8 @@
+res://CENAS/game.tscn
+res://CENAS/zumbi_fantasma.tscn
+res://CENAS/stand_gerador.tscn
+res://SCRIPTS/stand_gerador.gd
+res://SCRIPTS/sol_moeda.gd
+res://SCRIPTS/zumbi_fantasma.gd
+res://CENAS/sol_moeda.tscn
+res://SCRIPTS/game.gd

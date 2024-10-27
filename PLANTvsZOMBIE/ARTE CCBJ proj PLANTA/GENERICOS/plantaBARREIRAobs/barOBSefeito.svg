@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="22.982605"
+   height="24.992447"
+   viewBox="0 0 6.0808141 6.6125848"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="plantaBARREIRAcompleto.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="5.1606349"
+     inkscape:cx="73.828125"
+     inkscape:cy="19.861897"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1072"
+     inkscape:window-y="239"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-43.215386,-39.429611)">
+    <g
+       id="g86"
+       transform="translate(10.803404,2.6827244)">
+      <path
+         style="fill:#d3d54e;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 38.301329,42.597313 0.05915,-5.217326 c 0.0086,-0.75897 -1.909901,-0.614212 -1.944312,0.160028 l -0.07251,1.631387 c 0,0 -2.543299,-0.601304 -3.262773,0.217518 -0.767233,0.873175 -0.726203,2.801708 0.217517,3.480291 1.289912,0.927513 5.002919,-0.271898 5.002919,-0.271898 z"
+         id="path84"
+         sodipodi:nodetypes="csscsscc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 32.799933,40.095854 c 0,0 1.359487,0.235645 2.120802,0.135949"
+         id="path85" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 32.745553,41.908506 c 0,0 1.123844,0.36253 2.002978,0.135949"
+         id="path86" />
+    </g>
+  </g>
+</svg>

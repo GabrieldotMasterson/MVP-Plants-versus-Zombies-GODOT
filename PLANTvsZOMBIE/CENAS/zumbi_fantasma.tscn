@@ -1,0 +1,264 @@
+[gd_scene load_steps=12 format=3 uid="uid://ch7y5fapcs2h2"]
+
+[ext_resource type="Texture2D" uid="uid://bjwf8yoatoa6" path="res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMcorpo.svg" id="1_sqf7y"]
+[ext_resource type="Script" path="res://SCRIPTS/zumbi_fantasma.gd" id="1_yeeqb"]
+[ext_resource type="Texture2D" uid="uid://dskom173reyiu" path="res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMcab.svg" id="2_if51r"]
+[ext_resource type="Texture2D" uid="uid://cski8rlmw3hbx" path="res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMbraco.svg" id="3_i8i7r"]
+[ext_resource type="Texture2D" uid="uid://nthl12rj1c5q" path="res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMbracoFRE.svg" id="4_4cd75"]
+
+[sub_resource type="Animation" id="Animation_c7gj2"]
+resource_name = "ANDAR"
+length = 1.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ZuMcorpo/ZuMcab:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.7, 1.1, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.161229, 0.0, 0.108599, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ZuMcorpo/ZuMbraco:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.547932, 0.0, -0.525137, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ZuMcorpo/ZuMbracoFre:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.560024, 0.0, 0.485126, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ZuMcorpo:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_k3tpd"]
+resource_name = "ATAQUE"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ZuMcorpo:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.1, 0.5, 1.2, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.119265, -0.731093, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ZuMcorpo/ZuMcab:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1, 0.5, 1.2, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.318599, 0.15662, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ZuMcorpo/ZuMbraco:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.1, 0.5, 1.2, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.761825, 0.0637134, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ZuMcorpo/ZuMbracoFre:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.1, 0.5, 1.2, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.822162, 0.0821915, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_egqhh"]
+resource_name = "DERROTADO"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ZuMcorpo:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.2, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.962004]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ZuMcorpo/ZuMcab:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.216912]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.6, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_yrf7g"]
+resource_name = "IDLE"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ZuMcorpo:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ZuMcorpo/ZuMcab:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ZuMcorpo/ZuMbraco:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, -0.453793, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ZuMcorpo/ZuMbracoFre:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, -0.417328, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3am1e"]
+_data = {
+"ANDAR": SubResource("Animation_c7gj2"),
+"ATAQUE": SubResource("Animation_k3tpd"),
+"DERROTADO": SubResource("Animation_egqhh"),
+"IDLE": SubResource("Animation_yrf7g")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tr7aw"]
+radius = 56.0089
+
+[node name="zumbi_fantasma" type="Node2D"]
+script = ExtResource("1_yeeqb")
+
+[node name="ZuMcorpo" type="Sprite2D" parent="."]
+position = Vector2(81, 126)
+texture = ExtResource("1_sqf7y")
+offset = Vector2(14, -34)
+flip_h = true
+
+[node name="ZuMcab" type="Sprite2D" parent="ZuMcorpo"]
+position = Vector2(14, -76)
+texture = ExtResource("2_if51r")
+offset = Vector2(0, -17)
+flip_h = true
+
+[node name="ZuMbraco" type="Sprite2D" parent="ZuMcorpo"]
+position = Vector2(44, -47)
+texture = ExtResource("3_i8i7r")
+offset = Vector2(-28, 9)
+flip_h = true
+
+[node name="ZuMbracoFre" type="Sprite2D" parent="ZuMcorpo"]
+show_behind_parent = true
+position = Vector2(-25, -59)
+texture = ExtResource("4_4cd75")
+offset = Vector2(-23, 5)
+flip_h = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_3am1e")
+}
+autoplay = "IDLE"
+
+[node name="Area2D" type="Area2D" parent="." groups=["zumbi"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(81, 77)
+shape = SubResource("CircleShape2D_tr7aw")
+metadata/_edit_lock_ = true
+
+[node name="Timer_CAMINHADA" type="Timer" parent="."]
+wait_time = 2.5
+autostart = true
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="area_exited" from="Area2D" to="." method="_on_area_2d_area_exited"]
+[connection signal="timeout" from="Timer_CAMINHADA" to="." method="_on_timer_caminhada_timeout"]

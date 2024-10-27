@@ -1,0 +1,90 @@
+[gd_scene load_steps=5 format=3 uid="uid://bt46xtyx7jcij"]
+
+[ext_resource type="Script" path="res://scenes/gaime.gd" id="1_sfrjl"]
+[ext_resource type="Texture2D" uid="uid://yofxfbastul3" path="res://icon.svg" id="2_yul4e"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_c6tt0"]
+line_spacing = 16.0
+font_size = 120
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oj12e"]
+size = Vector2(52, 526)
+
+[node name="gaime" type="Node2D"]
+script = ExtResource("1_sfrjl")
+
+[node name="cenario" type="ColorRect" parent="."]
+offset_right = 1151.0
+offset_bottom = 648.0
+color = Color(1, 0.388235, 0.403922, 1)
+
+[node name="ColorRect" type="ColorRect" parent="cenario"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 100.0
+offset_right = 1133.0
+offset_bottom = 633.0
+color = Color(1, 0.211765, 0.254902, 1)
+
+[node name="tacaplanta_ot" type="Button" parent="."]
+offset_left = 24.0
+offset_top = 18.0
+offset_right = 216.0
+offset_bottom = 86.0
+text = "Tacar planta
+"
+
+[node name="mira_planta" type="Sprite2D" parent="."]
+visible = false
+z_as_relative = false
+position = Vector2(99, 166)
+scale = Vector2(0.5, 0.04)
+texture = ExtResource("2_yul4e")
+
+[node name="Icon2" type="Sprite2D" parent="mira_planta"]
+rotation = 1.57203
+scale = Vector2(12.4985, 0.0814643)
+skew = 0.189257
+texture = ExtResource("2_yul4e")
+metadata/_edit_lock_ = true
+
+[node name="zombieTimer" type="Timer" parent="."]
+wait_time = 4.0
+autostart = true
+
+[node name="display_final" type="ColorRect" parent="."]
+visible = false
+z_index = 300
+offset_left = 136.0
+offset_top = 76.0
+offset_right = 968.0
+offset_bottom = 556.0
+
+[node name="bad_ending" type="Label" parent="display_final"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 148.0
+offset_right = 710.0
+offset_bottom = 313.0
+text = "Game over"
+label_settings = SubResource("LabelSettings_c6tt0")
+
+[node name="good_ending" type="Label" parent="display_final"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 148.0
+offset_right = 710.0
+offset_bottom = 313.0
+text = "venceuWW"
+label_settings = SubResource("LabelSettings_c6tt0")
+
+[node name="fim_area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="fim_area2D"]
+position = Vector2(16, 365)
+shape = SubResource("RectangleShape2D_oj12e")
+
+[connection signal="button_up" from="tacaplanta_ot" to="." method="_on_tacaplanta_ot_button_up"]
+[connection signal="timeout" from="zombieTimer" to="." method="_on_zombie_timer_timeout"]
+[connection signal="area_entered" from="fim_area2D" to="." method="_on_fim_area_2d_area_entered"]
