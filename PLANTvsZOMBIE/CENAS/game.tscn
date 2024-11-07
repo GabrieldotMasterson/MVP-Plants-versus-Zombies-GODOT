@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://cb2kshmdbkd35"]
+[gd_scene load_steps=19 format=3 uid="uid://cb2kshmdbkd35"]
 
 [ext_resource type="Script" path="res://SCRIPTS/game.gd" id="1_icaxn"]
 [ext_resource type="Texture2D" uid="uid://dvpd6gdt6hee8" path="res://ARTE CCBJ proj PLANTA/CENARIOS/cenarioRUA.svg" id="1_rygni"]
@@ -17,6 +17,7 @@
 [ext_resource type="PackedScene" uid="uid://ch7y5fapcs2h2" path="res://CENAS/zumbi_fantasma.tscn" id="15_6cec4"]
 [ext_resource type="PackedScene" uid="uid://b6cr2bpa0dkuf" path="res://CENAS/stand_gerador.tscn" id="15_v5sr6"]
 [ext_resource type="PackedScene" uid="uid://b5wls2r5seusu" path="res://CENAS/sol_moeda.tscn" id="16_0jlgp"]
+[ext_resource type="PackedScene" uid="uid://biy0r4gd3dsm7" path="res://CENAS/garra.tscn" id="18_1oam0"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_icaxn")
@@ -117,3 +118,6 @@ position = Vector2(192, 365)
 
 [node name="sol_moeda" parent="." instance=ExtResource("16_0jlgp")]
 position = Vector2(199, 275)
+
+[node name="garra" parent="." instance=ExtResource("18_1oam0")]
+position = Vector2(439, 334)

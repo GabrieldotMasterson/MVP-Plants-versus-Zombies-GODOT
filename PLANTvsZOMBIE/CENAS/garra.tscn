@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://biy0r4gd3dsm7"]
+
+[ext_resource type="Texture2D" uid="uid://br0lh6ab15j52" path="res://ARTE CCBJ proj PLANTA/efeitos/garra_Camada 1_garra.svg" id="1_d2l58"]
+[ext_resource type="Script" path="res://SCRIPTS/garra.gd" id="1_wrlf8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7nxdh"]
+radius = 22.0
+
+[node name="garra" type="Node2D"]
+z_index = 100
+z_as_relative = false
+script = ExtResource("1_wrlf8")
+
+[node name="GarraCamada1Garra" type="Sprite2D" parent="."]
+position = Vector2(4.76837e-07, -7.45058e-09)
+scale = Vector2(0.708333, 0.708333)
+texture = ExtResource("1_d2l58")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+autostart = true
+
+[node name="Timer_mov" type="Timer" parent="."]
+wait_time = 0.4
+one_shot = true
+autostart = true
+
+[node name="Area2D2" type="Area2D" parent="." groups=["garra_zumbie"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+shape = SubResource("CircleShape2D_7nxdh")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Timer_mov" to="." method="_on_timer_mov_timeout"]
+[connection signal="body_entered" from="Area2D2" to="." method="_on_area_2d_2_body_entered"]

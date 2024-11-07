@@ -1,9 +1,9 @@
-Label
 CollisionShape2D
-ShapeCast2D
 Area2D
-Marker2D
 Timer
+Marker2D
+Label
+ShapeCast2D
 Node2D
 Button
 TextureRect

@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729992477
+::res://::1730950100
 icon.svg::CompressedTexture2D::8196504335459762535::1728504720::1729992482::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/::1729130248
+::res://ARTE CCBJ proj PLANTA/::1729992483
 CCBJplantVSzumbi.svg::CompressedTexture2D::2673570782350419340::1727224402::1729992482::1::::<><>::
 MOEDAenergia.svg::CompressedTexture2D::4575753581834133399::1726793254::1729992482::1::::<><>::
 PLANTAatiradorFF.svg::CompressedTexture2D::3364538080085082640::1726626788::1729992482::1::::<><>::
@@ -10,59 +10,60 @@ PLANTAexplosaoZAWARIDO.svg::CompressedTexture2D::150557231379350004::1726783244:
 PLANTAgeradorGOLDEN.svg::CompressedTexture2D::3968159872710512493::1726783022::1729992482::1::::<><>::
 PLANTALUTADORstar.svg::CompressedTexture2D::6169646875390334523::1726676050::1729992482::1::::<><>::
 ZUMBIbura.svg::CompressedTexture2D::9045698596719022099::1726708828::1729992482::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/CENARIOS/::1728506830
+::res://ARTE CCBJ proj PLANTA/CENARIOS/::1729992483
 cenarioJARDIM.svg::CompressedTexture2D::5137949468031112014::1726802086::1729992483::1::::<><>::
 cenarioRUA.svg::CompressedTexture2D::8664431265057724545::1726802026::1729992483::1::::<><>::
 TODOScenarios.svg::CompressedTexture2D::344500496107935876::1726802096::1729992483::1::::<><>::
 ::res://ARTE CCBJ proj PLANTA/CUTout/::1728506828
-::res://ARTE CCBJ proj PLANTA/CUTout/ATIRADORff/::1728506830
+::res://ARTE CCBJ proj PLANTA/CUTout/ATIRADORff/::1729992483
 ffBRACO.svg::CompressedTexture2D::5775776644659723206::1726791114::1729992483::1::::<><>::
 ffBRACOfre.svg::CompressedTexture2D::5352216815942472553::1726791124::1729992483::1::::<><>::
 ffCAB.svg::CompressedTexture2D::5244505749326601311::1726791044::1729992483::1::::<><>::
 ffCOMPLETO.svg::CompressedTexture2D::4347583337437614809::1726791200::1729992483::1::::<><>::
 ffCORPO.svg::CompressedTexture2D::3220775449275364280::1726791100::1729992483::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/CUTout/BARREIRAstone/::1728506830
+::res://ARTE CCBJ proj PLANTA/CUTout/BARREIRAstone/::1729992483
 stoneBRACO.svg::CompressedTexture2D::7347013176364650063::1726791558::1729992483::1::::<><>::
 stoneBRACOfre.svg::CompressedTexture2D::2649401595427544241::1726791628::1729992483::1::::<><>::
 stoneCAB.svg::CompressedTexture2D::970966497576229547::1726791528::1729992483::1::::<><>::
 stoneCOMPLETO.svg::CompressedTexture2D::6413906413176337704::1726791662::1729992483::1::::<><>::
 stoneCORPO.svg::CompressedTexture2D::5624368244273297903::1726791544::1729992483::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/CUTout/EXPLOSAOzawarido/::1728506830
+::res://ARTE CCBJ proj PLANTA/CUTout/EXPLOSAOzawarido/::1729992483
 zaBRACO.svg::CompressedTexture2D::6883538113053320087::1726783140::1729992483::1::::<><>::
 zaBRACOfre.svg::CompressedTexture2D::1242545825752542413::1726783150::1729992483::1::::<><>::
 zaCAB.svg::CompressedTexture2D::4739744456272801626::1726783110::1729992483::1::::<><>::
 zaCORPO.svg::CompressedTexture2D::8391091104965823048::1726783122::1729992483::1::::<><>::
 zawaridoCOMPLETO.svg::CompressedTexture2D::4886281975195119383::1726783192::1729992483::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/CUTout/GERADORgolden/::1728506830
+::res://ARTE CCBJ proj PLANTA/CUTout/GERADORgolden/::1729992483
 goldBRACO.svg::CompressedTexture2D::3184100332823454836::1726782962::1729992483::1::::<><>::
 goldBRACOfre.svg::CompressedTexture2D::4140284976958117802::1726782948::1729992483::1::::<><>::
 goldCAB.svg::CompressedTexture2D::1027685530195582200::1726782926::1729992483::1::::<><>::
 goldCORPO.svg::CompressedTexture2D::8308744559622606954::1726782980::1729992483::1::::<><>::
 GOLDENcompleto.svg::CompressedTexture2D::6408247854864206460::1726783014::1729992483::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/CUTout/LUTADORstar/::1728506830
+::res://ARTE CCBJ proj PLANTA/CUTout/LUTADORstar/::1729992483
 starBRACO.svg::CompressedTexture2D::4163911912434826735::1726791928::1729992483::1::::<><>::
 starBRACOfre.svg::CompressedTexture2D::794238672607958714::1726791956::1729992483::1::::<><>::
 starCAB.svg::CompressedTexture2D::1231465966851932359::1726791854::1729992483::1::::<><>::
 starCOMPLETO.svg::CompressedTexture2D::2358862370652897847::1726792086::1729992483::1::::<><>::
 starCORPO.svg::CompressedTexture2D::2286959122309449023::1726791868::1729992483::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/CUTout/MOEDA/::1728506830
+::res://ARTE CCBJ proj PLANTA/CUTout/MOEDA/::1729992484
 moeCOMPLETA.svg::CompressedTexture2D::3570721819409766431::1726793222::1729992484::1::::<><>::
 moePART1.svg::CompressedTexture2D::9093914707308138826::1726793102::1729992484::1::::<><>::
 moePART2.svg::CompressedTexture2D::4938956513223740279::1726793114::1729992484::1::::<><>::
 moePART3.svg::CompressedTexture2D::4538105012020162404::1726793126::1729992484::1::::<><>::
 moePART4.svg::CompressedTexture2D::8391707304805296707::1726793136::1729992484::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/::1728506830
+::res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/::1729992484
 ZUMbraco.svg::CompressedTexture2D::6057429908017910229::1726703344::1729992483::1::::<><>::
 ZUMbracoFRE.svg::CompressedTexture2D::952124215406153300::1726703364::1729992483::1::::<><>::
 ZUMcab.svg::CompressedTexture2D::8444177897866012980::1726703382::1729992483::1::::<><>::
 ZUMcorpo.svg::CompressedTexture2D::90114717217676719::1726703402::1729992483::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/efeitos/::1728506830
+::res://ARTE CCBJ proj PLANTA/efeitos/::1730785139
 ENERGIA.svg::CompressedTexture2D::6399892755504307343::1726794466::1729992483::1::::<><>::
+garra_Camada 1_garra.svg::CompressedTexture2D::3631922485174136555::1730785041::1730785046::1::::<><>::
 GOTA.svg::CompressedTexture2D::3471847706421757105::1726793596::1729992483::1::::<><>::
 LINHA.svg::CompressedTexture2D::7915714557516219432::1726794320::1729992483::1::::<><>::
 SOCO.svg::CompressedTexture2D::4941252673194732316::1726794700::1729992483::1::::<><>::
 ::res://ARTE CCBJ proj PLANTA/GENERICOS/::1728506828
-::res://ARTE CCBJ proj PLANTA/GENERICOS/esqueletoZUMBI/::1728506830
+::res://ARTE CCBJ proj PLANTA/GENERICOS/esqueletoZUMBI/::1729992483
 ESQbraco.svg::CompressedTexture2D::7452738802614984568::1727015720::1729992483::1::::<><>::
 ESQbracoFRE.svg::CompressedTexture2D::8943441905405253109::1727015698::1729992483::1::::<><>::
 ESQcabeca.svg::CompressedTexture2D::1541953499103858701::1727015662::1729992483::1::::<><>::
@@ -70,16 +71,16 @@ ESQcompleto.svg::CompressedTexture2D::8917665396756469930::1727015826::172999248
 ESQcorpo.svg::CompressedTexture2D::8761405073606857972::1727015674::1729992483::1::::<><>::
 ESQperna.svg::CompressedTexture2D::4410439239394606404::1727015754::1729992483::1::::<><>::
 ESQpernaFRE.svg::CompressedTexture2D::6295187630622670160::1727015740::1729992483::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/GENERICOS/moedaSOL/::1728506830
+::res://ARTE CCBJ proj PLANTA/GENERICOS/moedaSOL/::1729992483
 MOEDAsolCOMPLETO.svg::CompressedTexture2D::4489176362516166009::1727030058::1729992483::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/::1728506830
+::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/::1729992483
 atiradorMORANGOcompleto.svg::CompressedTexture2D::6139771049804253880::1727019118::1729992483::1::::<><>::
 atirMORbase.svg::CompressedTexture2D::1395513810353927539::1727018982::1729992483::1::::<><>::
 atirMORcabeca1.svg::CompressedTexture2D::1940560954970484200::1727019024::1729992483::1::::<><>::
 atirMORcabeca2.svg::CompressedTexture2D::6150491790303946459::1727019036::1729992483::1::::<><>::
 atirMORefeito.svg::CompressedTexture2D::3213362927236170912::1727019052::1729992483::1::::<><>::
 atirMORtronco.svg::CompressedTexture2D::9189936615155454390::1727018996::1729992483::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/::1728506830
+::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/::1729992483
 barOBSbase.svg::CompressedTexture2D::4370134900337163686::1727020150::1729992483::1::::<><>::
 barOBScabeca1.svg::CompressedTexture2D::1774303034104257620::1727020208::1729992482::1::::<><>::
 barOBScabeca2.svg::CompressedTexture2D::4897128403690553251::1727020218::1729992482::1::::<><>::
@@ -87,13 +88,13 @@ barOBScabeca3.svg::CompressedTexture2D::6991091796710403682::1727020226::1729992
 barOBSefeito.svg::CompressedTexture2D::6385800054615268803::1727020240::1729992482::1::::<><>::
 barOBStronco.svg::CompressedTexture2D::6005996400754160920::1727020194::1729992482::1::::<><>::
 plantaBARREIRAcompleto.svg::CompressedTexture2D::1111532249840582241::1727020252::1729992482::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaEXPLOSAOnotebook/::1728506830
+::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaEXPLOSAOnotebook/::1729992482
 expNOTEbase.svg::CompressedTexture2D::5709663412630084646::1727029378::1729992482::1::::<><>::
 expNOTEcabeca.svg::CompressedTexture2D::2033215056457384351::1727029428::1729992482::1::::<><>::
 expNOTEefeito.svg::CompressedTexture2D::3269583567918840236::1727029442::1729992482::1::::<><>::
 expNOTEtronco.svg::CompressedTexture2D::5849820680018415705::1727029406::1729992482::1::::<><>::
 plantaNOTEBOOKcompleto.svg::CompressedTexture2D::2185078989983255421::1727029460::1729992482::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaGERADORAgabu/::1728506830
+::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaGERADORAgabu/::1729992482
 gerGABUbase.svg::CompressedTexture2D::1639648655453231365::1727017134::1729992482::1::::<><>::
 gerGABUcabeca.svg::CompressedTexture2D::5434014937392303294::1727017086::1729992482::1::::<><>::
 GERgabuCOMPLETO.svg::CompressedTexture2D::5775183946349060428::1727016970::1729992482::1::::<><>::
@@ -101,14 +102,14 @@ GERgabuCOMPLETO.svg.2024_09_22_15_27_02.1.svg::CompressedTexture2D::760942990567
 gerGABUefeito222.svg::CompressedTexture2D::8985647375642262621::1727993042::1729992482::1::::<><>::
 gerGABUefeito.svg::CompressedTexture2D::5768384830209193693::1727017236::1729992482::1::::<><>::
 gerGABUtronco.svg::CompressedTexture2D::7217960997691466782::1727017106::1729992482::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaLUTADORAchat/::1728739040
+::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaLUTADORAchat/::1729992482
 lutCHATbase.svg::CompressedTexture2D::2871370002848193547::1727021212::1729992482::1::::<><>::
 lutCHATcabeca.svg::CompressedTexture2D::6256209194352106992::1727021244::1729992482::1::::<><>::
 lutCHATefeito222.svg::CompressedTexture2D::7145870572011526866::1728738560::1729992482::1::::<><>::
 lutCHATefeito.svg::CompressedTexture2D::298907332855857241::1727021262::1729992482::1::::<><>::
 lutCHATtronco.svg::CompressedTexture2D::1376205270268222954::1727021228::1729992482::1::::<><>::
 plantaLUTADORAchatCOMPLETA.svg::CompressedTexture2D::1010877541561979745::1727021292::1729992482::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/GUI HUD/::1729130254
+::res://ARTE CCBJ proj PLANTA/GUI HUD/::1729992483
 BARRAinferior.svg::CompressedTexture2D::5824725429689491793::1729130038::1729992482::1::::<><>::
 BARRAinferiorEXEMPLO.svg::CompressedTexture2D::817488114192089118::1729130026::1729992482::1::::<><>::
 BARRAsuperior.svg::CompressedTexture2D::8426417663854911232::1729129634::1729992482::1::::<><>::
@@ -127,29 +128,34 @@ CARTAlutadorATIV.svg::CompressedTexture2D::5909854035645799736::1729129856::1729
 CARTAlutadorDES.svg::CompressedTexture2D::2578506687912702356::1729129880::1729992482::1::::<><>::
 ICONEcheckpoint.svg::CompressedTexture2D::3600793155386953781::1729130096::1729992482::1::::<><>::
 ICONEorda.svg::CompressedTexture2D::7796896966003999822::1729130072::1729992482::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/ICONES/::1728506830
+::res://ARTE CCBJ proj PLANTA/ICONES/::1729992482
 JOJOicone.svg::CompressedTexture2D::2365252479089555809::1728505964::1729992482::1::::<><>::
-::res://ARTE CCBJ proj PLANTA/MARCADORES/::1728506830
+::res://ARTE CCBJ proj PLANTA/MARCADORES/::1729992482
 MARCADORES.svg::CompressedTexture2D::3573245358611137278::1728506546::1729992482::1::::<><>::
 MARCo.svg::CompressedTexture2D::2556801744886227813::1728506528::1729992482::1::::<><>::
 MARCquadro.svg::CompressedTexture2D::7939977498429370263::1728506542::1729992482::1::::<><>::
 MARCx.svg::CompressedTexture2D::1744738189776800200::1728506500::1729992482::1::::<><>::
-::res://CENAS/::1729649340
-game.tscn::PackedScene::4899408110940945314::1729649340::0::1::::<><>::uid://dvpd6gdt6hee8::::res://ARTE CCBJ proj PLANTA/CENARIOS/cenarioRUA.svg<>uid://dsb24rgl7r0m3::::res://ARTE CCBJ proj PLANTA/GUI HUD/BARRAsuperior.svg<>uid://co8sm2uxn7svp::::res://ARTE CCBJ proj PLANTA/GUI HUD/BARRAinferior.svg<>uid://dry4wryqqk8ks::::res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAgeradorATIV.svg<>uid://bmphuqd0pswda::::res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAatiradorATIV.svg<>uid://cke7u4faw8l2b::::res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAbarreiraATIV.svg<>uid://cqg1oyaa4yurw::::res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAlutadorATIV.svg<>uid://cobmf64l0y8gi::::res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAexplosaoATIV.svg<>uid://2q1gujjli3ev::::res://ARTE CCBJ proj PLANTA/GUI HUD/BOTpa.svg<>uid://cdy2av60d2npv::::res://ARTE CCBJ proj PLANTA/GUI HUD/BOTpause.svg<>uid://djc40vq4iw0p3::::res://ARTE CCBJ proj PLANTA/GUI HUD/ICONEorda.svg<>uid://brkisi8uaf3kj::::res://ARTE CCBJ proj PLANTA/GUI HUD/ICONEcheckpoint.svg<>uid://cbdc3y1seojf0::::res://CENAS/stand_lutador.tscn<>uid://ch7y5fapcs2h2::::res://CENAS/zumbi_fantasma.tscn<>uid://b6cr2bpa0dkuf::::res://CENAS/stand_gerador.tscn
+::res://CENAS/::1730939759
+game.tscn::PackedScene::4899408110940945314::1730939759::0::1::::<><>::res://SCRIPTS/game.gd<>uid://dvpd6gdt6hee8::::res://ARTE CCBJ proj PLANTA/CENARIOS/cenarioRUA.svg<>uid://dsb24rgl7r0m3::::res://ARTE CCBJ proj PLANTA/GUI HUD/BARRAsuperior.svg<>uid://co8sm2uxn7svp::::res://ARTE CCBJ proj PLANTA/GUI HUD/BARRAinferior.svg<>uid://dry4wryqqk8ks::::res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAgeradorATIV.svg<>uid://bmphuqd0pswda::::res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAatiradorATIV.svg<>uid://cke7u4faw8l2b::::res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAbarreiraATIV.svg<>uid://cqg1oyaa4yurw::::res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAlutadorATIV.svg<>uid://cobmf64l0y8gi::::res://ARTE CCBJ proj PLANTA/GUI HUD/CARTAexplosaoATIV.svg<>uid://2q1gujjli3ev::::res://ARTE CCBJ proj PLANTA/GUI HUD/BOTpa.svg<>uid://cdy2av60d2npv::::res://ARTE CCBJ proj PLANTA/GUI HUD/BOTpause.svg<>uid://djc40vq4iw0p3::::res://ARTE CCBJ proj PLANTA/GUI HUD/ICONEorda.svg<>uid://brkisi8uaf3kj::::res://ARTE CCBJ proj PLANTA/GUI HUD/ICONEcheckpoint.svg<>uid://cbdc3y1seojf0::::res://CENAS/stand_lutador.tscn<>uid://ch7y5fapcs2h2::::res://CENAS/zumbi_fantasma.tscn<>uid://b6cr2bpa0dkuf::::res://CENAS/stand_gerador.tscn<>uid://b5wls2r5seusu::::res://CENAS/sol_moeda.tscn<>uid://biy0r4gd3dsm7::::res://CENAS/garra.tscn
+garra.tscn::PackedScene::2999026314830183096::1730939759::0::1::::<><>::uid://br0lh6ab15j52::::res://ARTE CCBJ proj PLANTA/efeitos/garra_Camada 1_garra.svg<>res://SCRIPTS/garra.gd
 planta_atiradora.tscn::PackedScene::1451497352806394554::1729204364::0::1::::<><>::uid://t4855koamtpj::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/atirMORbase.svg<>uid://d36w6b4xl2une::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/atirMORtronco.svg<>uid://2wa0xiub38hg::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/atirMORcabeca1.svg<>uid://ctvlx3trbupeh::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/atirMORcabeca2.svg<>uid://bl1tvalivfb8c::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaATIRADORAmorango/atirMORefeito.svg
 planta_barreira.tscn::PackedScene::8980447291221148875::1729204364::0::1::::<><>::uid://b3i6qoytchiy5::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBSbase.svg<>uid://crtl5bauso2me::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBStronco.svg<>uid://0jqrntskf1bc::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBScabeca1.svg<>uid://cb1g8vwupmy8r::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBScabeca2.svg<>uid://c6usi4d6rewus::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBScabeca3.svg<>uid://cw8lguf6syau2::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaBARREIRAobs/barOBSefeito.svg
 planta_explosao.tscn::PackedScene::2685065093466084703::1729204364::0::1::::<><>::uid://cnl2k7qj3qrpe::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaEXPLOSAOnotebook/expNOTEbase.svg<>uid://cplxxr4vrmngj::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaEXPLOSAOnotebook/expNOTEtronco.svg<>uid://3750wxrlqlgx::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaEXPLOSAOnotebook/expNOTEcabeca.svg<>uid://bmt2tfusq7j7i::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaEXPLOSAOnotebook/expNOTEefeito.svg
 planta_geradora.tscn::PackedScene::722343402318399780::1729204364::0::1::::<><>::uid://xmi1kroldro4::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaGERADORAgabu/gerGABUbase.svg<>uid://da3o07d5ftygk::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaGERADORAgabu/gerGABUtronco.svg<>uid://cjojoxrh5ny43::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaGERADORAgabu/gerGABUcabeca.svg<>uid://d1aykgf4ue854::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaGERADORAgabu/gerGABUefeito222.svg
 planta_lutadora.tscn::PackedScene::6294654111213747562::1729204364::0::1::::<><>::uid://bg56brmpopd7h::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaLUTADORAchat/lutCHATbase.svg<>uid://tuv5udgs2wes::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaLUTADORAchat/lutCHATtronco.svg<>uid://cves37g6upf3m::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaLUTADORAchat/lutCHATcabeca.svg<>uid://c82rpduvdtakw::::res://ARTE CCBJ proj PLANTA/GENERICOS/plantaLUTADORAchat/lutCHATefeito222.svg
+sol_moeda.tscn::PackedScene::4538203780413533576::1730939759::0::1::::<><>::res://SCRIPTS/sol_moeda.gd<>uid://b47ucxdxw5mgn::::res://ARTE CCBJ proj PLANTA/GENERICOS/moedaSOL/MOEDAsolCOMPLETO.svg
 stand_atirador.tscn::PackedScene::7322768908636460821::1729204364::0::1::::<><>::uid://bl5fx3ptv7ebw::::res://ARTE CCBJ proj PLANTA/CUTout/ATIRADORff/ffCORPO.svg<>uid://cgyqijo6y7xbb::::res://ARTE CCBJ proj PLANTA/CUTout/ATIRADORff/ffCAB.svg<>uid://coj3gyj8w6idi::::res://ARTE CCBJ proj PLANTA/CUTout/ATIRADORff/ffBRACO.svg<>uid://ciiwh1yhpvhn2::::res://ARTE CCBJ proj PLANTA/CUTout/ATIRADORff/ffBRACOfre.svg<>uid://bpp13bdojddwr::::res://ARTE CCBJ proj PLANTA/efeitos/GOTA.svg
 stand_barreira.tscn::PackedScene::1774992456620909572::1729204364::0::1::::<><>::uid://cmeqr146oewdr::::res://ARTE CCBJ proj PLANTA/CUTout/BARREIRAstone/stoneCORPO.svg<>uid://bd0ni0k075ucn::::res://ARTE CCBJ proj PLANTA/CUTout/BARREIRAstone/stoneBRACOfre.svg<>uid://dcw7h7brwhrpv::::res://ARTE CCBJ proj PLANTA/CUTout/BARREIRAstone/stoneBRACO.svg<>uid://n3lw84pwy84n::::res://ARTE CCBJ proj PLANTA/CUTout/BARREIRAstone/stoneCAB.svg<>uid://dk1owrtsphfdg::::res://ARTE CCBJ proj PLANTA/efeitos/LINHA.svg
 stand_explosao.tscn::PackedScene::1279735668440293956::1729204364::0::1::::<><>::uid://drsybrq2eraiq::::res://ARTE CCBJ proj PLANTA/CUTout/EXPLOSAOzawarido/zaCORPO.svg<>uid://b8r75s543l03g::::res://ARTE CCBJ proj PLANTA/CUTout/EXPLOSAOzawarido/zaCAB.svg<>uid://c5co4qjsba8hv::::res://ARTE CCBJ proj PLANTA/CUTout/EXPLOSAOzawarido/zaBRACO.svg<>uid://rx5svy6lmfu8::::res://ARTE CCBJ proj PLANTA/CUTout/EXPLOSAOzawarido/zaBRACOfre.svg
-stand_gerador.tscn::PackedScene::4567484073021641533::1729639792::0::1::::<><>::res://SCRIPTS/stand_gerador.gd<>uid://dqm22rf6mlaqs::::res://ARTE CCBJ proj PLANTA/CUTout/GERADORgolden/goldCORPO.svg<>uid://ov23idmurgrw::::res://ARTE CCBJ proj PLANTA/CUTout/GERADORgolden/goldCAB.svg<>uid://by8t5hkgdlhcc::::res://ARTE CCBJ proj PLANTA/CUTout/GERADORgolden/goldBRACOfre.svg<>uid://blmnwxmytv6mi::::res://ARTE CCBJ proj PLANTA/CUTout/GERADORgolden/goldBRACO.svg<>uid://cxgfkfia5vqnn::::res://ARTE CCBJ proj PLANTA/efeitos/ENERGIA.svg
-stand_lutador.tscn::PackedScene::4849396082050345943::1729204364::0::1::::<><>::uid://7t25akk5ydj8::::res://ARTE CCBJ proj PLANTA/CUTout/LUTADORstar/starCORPO.svg<>uid://rsscgviwu7h0::::res://ARTE CCBJ proj PLANTA/CUTout/LUTADORstar/starCAB.svg<>uid://b0lbaydg18shr::::res://ARTE CCBJ proj PLANTA/CUTout/LUTADORstar/starBRACO.svg<>uid://lky83dqgn5ji::::res://ARTE CCBJ proj PLANTA/CUTout/LUTADORstar/starBRACOfre.svg<>uid://ccntyekf8rqmm::::res://ARTE CCBJ proj PLANTA/efeitos/SOCO.svg
-zumbi_fantasma.tscn::PackedScene::5331734405927577349::1729639792::0::1::::<><>::uid://bjwf8yoatoa6::::res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMcorpo.svg<>res://SCRIPTS/zumbi_fantasma.gd<>uid://dskom173reyiu::::res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMcab.svg<>uid://cski8rlmw3hbx::::res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMbraco.svg<>uid://nthl12rj1c5q::::res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMbracoFRE.svg
+stand_gerador.tscn::PackedScene::4567484073021641533::1730939759::0::1::::<><>::res://SCRIPTS/stand_gerador.gd<>uid://dqm22rf6mlaqs::::res://ARTE CCBJ proj PLANTA/CUTout/GERADORgolden/goldCORPO.svg<>uid://ov23idmurgrw::::res://ARTE CCBJ proj PLANTA/CUTout/GERADORgolden/goldCAB.svg<>uid://by8t5hkgdlhcc::::res://ARTE CCBJ proj PLANTA/CUTout/GERADORgolden/goldBRACOfre.svg<>uid://blmnwxmytv6mi::::res://ARTE CCBJ proj PLANTA/CUTout/GERADORgolden/goldBRACO.svg<>uid://cxgfkfia5vqnn::::res://ARTE CCBJ proj PLANTA/efeitos/ENERGIA.svg
+stand_lutador.tscn::PackedScene::4849396082050345943::1730939759::0::1::::<><>::uid://7t25akk5ydj8::::res://ARTE CCBJ proj PLANTA/CUTout/LUTADORstar/starCORPO.svg<>uid://rsscgviwu7h0::::res://ARTE CCBJ proj PLANTA/CUTout/LUTADORstar/starCAB.svg<>uid://b0lbaydg18shr::::res://ARTE CCBJ proj PLANTA/CUTout/LUTADORstar/starBRACO.svg<>uid://lky83dqgn5ji::::res://ARTE CCBJ proj PLANTA/CUTout/LUTADORstar/starBRACOfre.svg<>uid://ccntyekf8rqmm::::res://ARTE CCBJ proj PLANTA/efeitos/SOCO.svg
+zumbi_fantasma.tscn::PackedScene::5331734405927577349::1730939759::0::1::::<><>::uid://bjwf8yoatoa6::::res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMcorpo.svg<>res://SCRIPTS/zumbi_fantasma.gd<>uid://dskom173reyiu::::res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMcab.svg<>uid://cski8rlmw3hbx::::res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMbraco.svg<>uid://nthl12rj1c5q::::res://ARTE CCBJ proj PLANTA/CUTout/ZUMBIbura/ZUMbracoFRE.svg
 zumbi_inimigo.tscn::PackedScene::7972953972806340542::1729204364::0::1::::<><>::uid://dw3dcddnl6o25::::res://ARTE CCBJ proj PLANTA/GENERICOS/esqueletoZUMBI/ESQcorpo.svg<>uid://v760pwytcmtx::::res://ARTE CCBJ proj PLANTA/GENERICOS/esqueletoZUMBI/ESQcabeca.svg<>uid://b33pj4ehi44ai::::res://ARTE CCBJ proj PLANTA/GENERICOS/esqueletoZUMBI/ESQperna.svg<>uid://cvxo25som34sy::::res://ARTE CCBJ proj PLANTA/GENERICOS/esqueletoZUMBI/ESQpernaFRE.svg<>uid://d0ojgf32qolwn::::res://ARTE CCBJ proj PLANTA/GENERICOS/esqueletoZUMBI/ESQbracoFRE.svg<>uid://degfrwho1uos3::::res://ARTE CCBJ proj PLANTA/GENERICOS/esqueletoZUMBI/ESQbraco.svg
 ::res://FONTEStexto/::1729205240
-::res://SCRIPTS/::1729639760
-stand_gerador.gd::GDScript::-1::1729639760::0::1::::<>Node2D<>::
-zumbi_fantasma.gd::GDScript::-1::1729639332::0::1::::<>Node2D<>::
+::res://SCRIPTS/::1730939759
+game.gd::GDScript::-1::1729995061::0::1::::<>Node2D<>::
+garra.gd::GDScript::-1::1730939488::0::1::::<>Node2D<>::
+sol_moeda.gd::GDScript::-1::1730938237::0::1::::<>Node2D<>::
+stand_gerador.gd::GDScript::-1::1730939759::0::1::::<>Node2D<>::
+zumbi_fantasma.gd::GDScript::-1::1730939146::0::1::::<>Node2D<>::
 ::res://SOMS/::1729205216

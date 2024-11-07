@@ -17,7 +17,7 @@ func _process(delta: float) -> void:
 			queue_free()
 			
 	if queda > 0 :
-		position = Vector2(0,-queda)
+		position -= Vector2(0,-queda/5)
 		queda -= 1
 
 

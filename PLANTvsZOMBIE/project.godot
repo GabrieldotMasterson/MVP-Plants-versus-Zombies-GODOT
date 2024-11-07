@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Plant vs Zombie"
+run/main_scene="res://CENAS/game.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://ARTE CCBJ proj PLANTA/ICONES/JOJOicone.svg"
 
@@ -19,6 +20,10 @@ config/icon="res://ARTE CCBJ proj PLANTA/ICONES/JOJOicone.svg"
 window/size/viewport_width=800
 window/size/viewport_height=600
 window/stretch/mode="viewport"
+
+[global_group]
+
+garra_zumbie=""
 
 [input]
 
