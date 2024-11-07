@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://cb2kshmdbkd35"]
+[gd_scene load_steps=21 format=3 uid="uid://cb2kshmdbkd35"]
 
 [ext_resource type="Script" path="res://SCRIPTS/game.gd" id="1_icaxn"]
 [ext_resource type="Texture2D" uid="uid://dvpd6gdt6hee8" path="res://ARTE CCBJ proj PLANTA/CENARIOS/cenarioRUA.svg" id="1_rygni"]
@@ -18,6 +18,8 @@
 [ext_resource type="PackedScene" uid="uid://b6cr2bpa0dkuf" path="res://CENAS/stand_gerador.tscn" id="15_v5sr6"]
 [ext_resource type="PackedScene" uid="uid://b5wls2r5seusu" path="res://CENAS/sol_moeda.tscn" id="16_0jlgp"]
 [ext_resource type="PackedScene" uid="uid://biy0r4gd3dsm7" path="res://CENAS/garra.tscn" id="18_1oam0"]
+[ext_resource type="PackedScene" uid="uid://dclg601d0khq0" path="res://CENAS/stand_atirador.tscn" id="19_110f2"]
+[ext_resource type="PackedScene" uid="uid://cba2qnrvvcfsh" path="res://CENAS/efeito_gota.tscn" id="20_bkao3"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_icaxn")
@@ -111,13 +113,19 @@ vertical_alignment = 1
 position = Vector2(288, 114)
 
 [node name="zumbi_fantasma" parent="." instance=ExtResource("15_6cec4")]
-position = Vector2(646, 313)
+position = Vector2(631, 195)
 
 [node name="stand_gerador" parent="." instance=ExtResource("15_v5sr6")]
-position = Vector2(192, 365)
+position = Vector2(91, 361)
 
 [node name="sol_moeda" parent="." instance=ExtResource("16_0jlgp")]
 position = Vector2(199, 275)
 
 [node name="garra" parent="." instance=ExtResource("18_1oam0")]
 position = Vector2(439, 334)
+
+[node name="stand_atirador" parent="." instance=ExtResource("19_110f2")]
+position = Vector2(110, 217)
+
+[node name="efeito_gota" parent="." instance=ExtResource("20_bkao3")]
+position = Vector2(204, 426)

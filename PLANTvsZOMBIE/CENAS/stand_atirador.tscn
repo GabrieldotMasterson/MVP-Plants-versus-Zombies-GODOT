@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://dclg601d0khq0"]
+[gd_scene load_steps=12 format=3 uid="uid://dclg601d0khq0"]
 
 [ext_resource type="Texture2D" uid="uid://bl5fx3ptv7ebw" path="res://ARTE CCBJ proj PLANTA/CUTout/ATIRADORff/ffCORPO.svg" id="1_ni57i"]
+[ext_resource type="Script" path="res://SCRIPTS/stand_atirador.gd" id="1_wusaf"]
 [ext_resource type="Texture2D" uid="uid://cgyqijo6y7xbb" path="res://ARTE CCBJ proj PLANTA/CUTout/ATIRADORff/ffCAB.svg" id="2_ee6vd"]
 [ext_resource type="Texture2D" uid="uid://coj3gyj8w6idi" path="res://ARTE CCBJ proj PLANTA/CUTout/ATIRADORff/ffBRACO.svg" id="3_edsvk"]
 [ext_resource type="Texture2D" uid="uid://ciiwh1yhpvhn2" path="res://ARTE CCBJ proj PLANTA/CUTout/ATIRADORff/ffBRACOfre.svg" id="4_e5w5e"]
@@ -240,7 +241,11 @@ _data = {
 "PODER": SubResource("Animation_pw7fd")
 }
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_n7gqx"]
+radius = 37.0
+
 [node name="stand_atirador" type="Node2D"]
+script = ExtResource("1_wusaf")
 
 [node name="FfCorpo" type="Sprite2D" parent="."]
 position = Vector2(37, 89)
@@ -249,6 +254,7 @@ offset = Vector2(0, -21)
 
 [node name="FfCab" type="Sprite2D" parent="FfCorpo"]
 position = Vector2(-1, -37)
+rotation = -0.00595629
 texture = ExtResource("2_ee6vd")
 offset = Vector2(-2, -20)
 
@@ -260,6 +266,7 @@ offset = Vector2(14, 4)
 
 [node name="FfBracOfre" type="Sprite2D" parent="FfCorpo"]
 position = Vector2(-23, -29)
+rotation = -0.00836736
 texture = ExtResource("4_e5w5e")
 offset = Vector2(14, 5)
 
@@ -276,3 +283,19 @@ libraries = {
 "": SubResource("AnimationLibrary_j6uwn")
 }
 autoplay = "IDLE"
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(39, 57)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -1)
+shape = SubResource("CircleShape2D_n7gqx")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(40, 56)
+target_position = Vector2(745, -10)
+collision_mask = 8
+collide_with_areas = true
+collide_with_bodies = false
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
